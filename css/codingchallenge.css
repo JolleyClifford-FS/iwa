@@ -1,0 +1,84 @@
+/* Alternative Box Model Styles */
+* {
+  box-sizing: border-box;
+  text-align: left;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/* link Styles */
+a {
+  color: black;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: chartreuse;
+  text-decoration: none;
+}
+
+/* wrapper Styles */
+#wrapper {
+  text-align: center;
+  width: 75%;
+  margin: auto;
+  border: 5px solid black;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+ul {
+  list-style: none;
+  border: 4px solid black;
+  padding: 0rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* justify-content: center; */
+  /* gap: 4rem; */
+  flex-wrap: wrap;
+  /* flex-flow: row wrap; */
+  /* align-items: center; */
+  /* height: 10rem; */
+}
+
+/* General Styles */
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  line-height: 3rem;
+  text-align: center;
+  font-size: 4rem;
+  color: blue;
+  background-color: blueviolet;
+  width: 50%;
+  margin: auto;
+  min-width: 15rem;
+  font-weight: 300;
+  padding: 1rem;
+  border: 5px solid red;
+  border-radius: 3rem;
+  text-shadow: 5px 5px black;
+}
+
+#history_section {
+  font-family: fantasy;
+  font-weight: bolder;
+}
+
+/* img {
+  justify-content: center;
+  display: block;
+  width: 50%;
+} */
+
+#motorcycle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+}
+
+ul {
+  text-align: left;
+}

@@ -1,0 +1,53 @@
+/* Alternative Box Model Styles */
+* {
+  box-sizing: border-box;
+  text-align: left;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/* link Styles */
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: chartreuse;
+}
+
+/* wrapper Styles */
+#wrapper {
+  text-align: center;
+  width: 75%;
+  margin: auto;
+  border: 5px solid black;
+}
+
+/* General Styles */
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  line-height: 3rem;
+  text-align: center;
+  font-size: 4rem;
+  color: blue;
+  background-color: blueviolet;
+  width: 50%;
+  margin: auto;
+  min-width: 15rem;
+  font-weight: 300;
+  padding: 1rem;
+  border: 5px solid red;
+  border-radius: 3rem;
+  text-shadow: 5px 5px black;
+}
+
+img {
+  margin: auto;
+  display: block;
+  width: 50%;
+}
+
+ul {
+  text-align: left;
+}
